@@ -1,0 +1,59 @@
+Slide 1: Title Slide
+
+Title: Importance of Monitoring etcd in OpenShift
+Subtitle: Understanding Leader Elections & Database Size
+Slide 2: Introduction to etcd
+
+Image of etcd logo
+Bullet Points:
+Distributed key-value store
+Core component of Kubernetes (and OpenShift)
+Manages cluster configuration and state
+Slide 3: Why Monitor etcd?
+
+Bullet Points:
+Central to OpenShift operation
+A malfunctioning etcd can halt cluster operations
+Proactive monitoring can prevent bigger issues
+Slide 4: etcd Leader Election
+
+Diagram: 3 etcd instances with one highlighted as leader
+Bullet Points:
+Only one leader at a time
+Responsible for handling client requests
+Regular leader elections to ensure availability
+Slide 5: Why Monitor etcd Leader?
+
+Bullet Points:
+Frequent leader elections can indicate network issues
+Detects split-brain scenarios
+Ensures smooth and optimized client operations
+Slide 6: etcd Database Size
+
+Image: Rising graph indicating growing database size
+Bullet Points:
+Stores data about resources, configurations, etc.
+Size grows with cluster activity
+Slide 7: Why Monitor etcd DB Size?
+
+Bullet Points:
+Prevents database from filling storage space
+Large database can affect performance
+Helps in capacity planning and optimization
+Slide 8: Tools for Monitoring
+
+Bullet Points:
+oc command line: Direct checks
+Prometheus: Advanced monitoring and alerts
+OpenShift Console: Visual monitoring
+Slide 9: Conclusion
+
+Bullet Points:
+etcd is the heart of OpenShift
+Monitoring etcd is crucial for cluster health
+Proactive checks save time and prevent disasters
+Slide 10: Q&A
+
+Text: "Questions & Answers"
+Image: A question mark or a silhouette of a person thinking
+When creating the slides, make sure to incorporate relevant visuals and maintain a consistent theme for a professional look. Each slide's content can be expanded upon during the presentation, using the bullet points as a guideline.
